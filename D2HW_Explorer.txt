@@ -1,0 +1,23 @@
+package HWDay2Mode;
+
+public class Explorer {
+
+	public static void main(String[] args) {
+
+		String aGreeting = "Hello World";
+		int columbusYear = 1492;
+		boolean haveDog = false;
+		String todaysDate = "8/2/2016";
+		double burgerWithCheese = 5.45;
+		char deadpool = 'X';
+
+		System.out.println(aGreeting);
+		System.out.println("Columbus Sailed the world in " + columbusYear + ".");
+		System.out.println("It is " + haveDog + ", I do not have a dog at home.");
+		System.out.println("Today is " + todaysDate + ".");
+		System.out.println("I spent $" + burgerWithCheese + " on a cheeseburger.");
+		System.out.println(deadpool + " marks the spot.");
+
+	}
+
+}
