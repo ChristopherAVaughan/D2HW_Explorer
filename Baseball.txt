@@ -1,0 +1,35 @@
+package com.Day4;
+
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class Baseball {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter in your players name: ");
+        String playerName = scanner.nextLine();
+        System.out.println("How many at bats did your player have? ");
+        String atBats = scanner.nextLine();
+        float atBatsAsFloat = Float.parseFloat(atBats);
+        int repeat = 0;
+
+
+        
+        for(int i = 0 ; i <= atBatsAsFloat; i++);  {
+            System.out.println("Total of bases per at bat: ") ;
+            String totalNoOfB = scanner.nextLine();
+            float totalNumberOfBasesAsFloat1 = Float.parseFloat(totalNoOfB);
+ 
+
+
+
+        }
+
+    }
+
+}
